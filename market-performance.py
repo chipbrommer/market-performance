@@ -9,7 +9,7 @@ TICKERS = ['QQQ', 'SPY', 'DIA']
 # Define the month and day for the target date (e.g., December 25)
 TARGET_MONTH_DAY = (12, 25)  # Target is December 25 for all years
 START_YEAR = 2014
-END_YEAR = 2023
+END_YEAR = 2024
 
 # Function to fetch data for all tickers in a given year
 def fetch_data(year, tickers):
