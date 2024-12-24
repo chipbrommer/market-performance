@@ -8,6 +8,8 @@ TICKERS = ['QQQ', 'SPY', 'DIA']
 
 # Define the month and day for the target date (e.g., December 25)
 TARGET_MONTH_DAY = (12, 25)  # Target is December 25 for all years
+START_YEAR = 2014
+END_YEAR = 2023
 
 # Function to fetch data for all tickers in a given year
 def fetch_data(year, tickers):
@@ -80,7 +82,7 @@ def plot_percentage_changes(percentage_changes, years, target_month_day):
 
 # Main function to orchestrate the entire process
 def main():
-    years = range(2014, 2024)
+    years = range(START_YEAR, END_YEAR)
     percentage_changes = {ticker: [] for ticker in TICKERS}
 
     for year in years:
