@@ -7,9 +7,9 @@ from datetime import datetime, timedelta
 TICKERS = ['QQQ', 'SPY', 'DIA']
 
 # Define the month and day for the target date (e.g., January 2nd)
-TARGET_MONTH_DAY = (1, 2)  # Target is January 2nd for all years
+TARGET_MONTH_DAY = (1, 1)  # Target is January 1st for all years
 START_YEAR = 2014
-END_YEAR = 2024
+END_YEAR = 2025
 
 def fetch_data(year, tickers):
     """
